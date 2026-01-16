@@ -1,4 +1,4 @@
-import { bankedOauthConfig } from "../config/config";
+import { bankedOauthConfig } from "@/config/config";
 
 /**
  * OAuth client for managing Banked bearer tokens.

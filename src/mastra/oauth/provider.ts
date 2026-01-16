@@ -4,8 +4,8 @@ import type {
   OAuthClientMetadata,
   OAuthClientInformationMixed,
 } from "@modelcontextprotocol/sdk/shared/auth.js";
-import { getBearerToken } from "./manager";
-import { bankedOauthConfig } from "../config/config";
+import { getBearerToken } from "@/oauth/manager";
+import { bankedOauthConfig } from "@/config/config";
 
 /**
  * Minimal OAuth client provider for Banked MCP server using client_credentials flow.

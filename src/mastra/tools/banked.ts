@@ -1,6 +1,6 @@
 import { MCPClient } from "@mastra/mcp";
-import { bankedMcpConfig } from "../config/config";
-import { BankedOAuthProvider } from "../oauth/provider";
+import { bankedMcpConfig } from "@/config/config";
+import { BankedOAuthProvider } from "@/oauth/provider";
 
 /**
  * MCP Client for Banked.
