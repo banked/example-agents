@@ -5,7 +5,7 @@ import {
   modelProvider,
   googleCloudConfig,
   modelConfig,
-} from "./config/config";
+} from "@/config/config";
 
 let model: 
   | ReturnType<ReturnType<typeof createVertex>>

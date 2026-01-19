@@ -1,8 +1,8 @@
 import { Agent } from "@mastra/core/agent";
 import { Memory } from "@mastra/memory";
 
-import { model } from "../model"; 
-import { banked } from "../tools/banked";
+import { model } from "@/mastra/model"; 
+import { banked } from "@/tools/banked";
 
 const prompt = `You are a payments agent for Banked that helps users with payment related questions.
 Your main goal is to provide excellent customer service and help customers create payments.

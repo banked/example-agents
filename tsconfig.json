@@ -8,7 +8,16 @@
       "strict": true,
       "skipLibCheck": true,
       "noEmit": true,
-      "outDir": "dist"
+      "outDir": "dist",
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"],
+        "@/mastra/*": ["src/mastra/*"],
+        "@/agents/*": ["src/mastra/agents/*"],
+        "@/config/*": ["src/mastra/config/*"],
+        "@/oauth/*": ["src/mastra/oauth/*"],
+        "@/tools/*": ["src/mastra/tools/*"]
+      }
     },
     "include": ["src/**/*"]
   }
